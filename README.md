@@ -20,7 +20,7 @@ You can access the live demo of the Single Page Vite Portfolio by following this
 To run the Single Page Vite Portfolio locally, follow these steps:
 
 1. Clone the repository:git clone https://github.com/ankitjha2023/single-page-portfolio.git
-2. Navigate to the project directory: cd portfolio
+2. Navigate to the project directory: cd single-page-portfolio
 3. Install the dependencies: npm install
 4. Start the development server: npm run dev
 5. Open your browser and visit `http://localhost:5173` to view the portfolio locally.
