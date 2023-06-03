@@ -12,9 +12,10 @@ const Navbar = () => {
   const toggleIconClass = isToggled ? 'fa-xmark' : 'fa-bars';
 
   return (
-    <nav className="navbar navbar-expand-lg py-3" data-aos="fade-down">
+    <header>
+      <nav className="navbar navbar-expand-lg  bg-light">
       <div className="container">
-        <h2 className='navbar-brand fs-4 '>Portfolio</h2>
+       <img src="/photo.jpeg" className="img-fluid rounded-circle" width={60} />
         <button
           className="navbar-toggler"
           type="button"
@@ -25,7 +26,7 @@ const Navbar = () => {
           aria-label="Toggle navigation"
           onClick={handleToggle}
         >
-          <i className={`fa-solid ${toggleIconClass}`}></i>
+          <i className={`fa-solid ${toggleIconClass} fs-3`}></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -40,6 +41,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </header>
   );
 };
 

@@ -1,13 +1,13 @@
 import React from 'react'
-import img from "../images/contact.png"
 const Contact = () => {
   return (
-    <section className='container mt-5'>
+    <section id='contact'>
+      <div className='container mt-5'>
       <div className="row">
-        <div className="col-md-6" data-aos="fade-right">
-            <img src={img} alt="contact" className='img-fluid' />
+        <div className="col-lg-6 col-12" data-aos="fade-right">
+            <img src="/contact.png" alt="contact" className='img-fluid' />
         </div>
-        <div className="col-md-6" data-aos="fade-left">
+        <div className="col-lg-6 col-12" data-aos="fade-left">
         <h1>Contact Me</h1>
         <p>If you have any questions, please don't hesitate to fill out this form.</p>
         <form method='post' action='https://formspree.io/f/xvonkggg'>
@@ -53,6 +53,7 @@ const Contact = () => {
   </form>
         </div>
       </div>
+    </div>
     </section>
   )
 }

@@ -2,8 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='container-fluid mt-5 py-3' data-aos="fade-up"
-    data-aos-anchor-placement="top-bottom">
+    <footer className='container-fluid mt-5 py-3 bg-light'>
        
             <div className="row">
               
@@ -16,7 +15,7 @@ const Footer = () => {
             
               </div>
               <div className="col-md-6 mt-2">
-              <p className="text-center text-primary">2022 &copy; Developed By Ankit Jha</p>
+              <p className="text-center">Developed By Ankit Jha</p>
               </div>
             </div>
            
