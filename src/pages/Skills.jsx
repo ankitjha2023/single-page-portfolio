@@ -6,10 +6,10 @@ const Skills = () => {
     <section id='skills'>
       <div className='container'>
       <div className="row">
-        <div className="col-lg-6 col-12  d-flex flex-column align-items-center justify-content-center" data-aos="fade-right">
+        <div className="col-lg-6 col-md-12  d-flex flex-column align-items-center justify-content-center" data-aos="fade-right">
           <img src="/skill.png" alt="skill" className='img-fluid' />
         </div>
-        <div className="col-lg-6 col-12  d-flex flex-column justify-content-center p-lg-4" data-aos="fade-left">
+        <div className="col-lg-6 col-md-12  d-flex flex-column justify-content-center p-lg-4" data-aos="fade-left">
           <h1 className='display-5 mb-3'>My Skills</h1>
 
           {

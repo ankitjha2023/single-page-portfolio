@@ -4,10 +4,10 @@ const Contact = () => {
     <section id='contact'>
       <div className='container mt-5'>
       <div className="row">
-        <div className="col-lg-6 col-12" data-aos="fade-right">
-            <img src="/contact.png" alt="contact" className='img-fluid' />
+        <div className="col-lg-6 col-md-12 p-5" data-aos="fade-right">
+            <img src="/contact.png" alt="contact" className='img-fluid'/>
         </div>
-        <div className="col-lg-6 col-12" data-aos="fade-left">
+        <div className="col-lg-6 col-md-12 py-lg-5 d-flex flex-column justify-content-center text-center" data-aos="fade-left">
         <h1>Contact Me</h1>
         <p>If you have any questions, please don't hesitate to fill out this form.</p>
         <form method='post' action='https://formspree.io/f/xvonkggg'>

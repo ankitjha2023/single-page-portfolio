@@ -1,16 +1,28 @@
 import React from 'react'
-
-const Footer = () => {
+import icons from '../api/SocialMedia'
+const Footer = ({mode}) => {
+  let iconClass 
+  if(mode=="light"){
+    iconClass ="text-dark"
+  }
+  if(mode=="dark"){
+    iconClass="text-light"
+  }
   return (
-    <footer className='container-fluid mt-5 py-3 bg-light'>
+    <footer className='container-fluid mt-5 py-3'>
        
             <div className="row">
               
               <div className="col-md-6 d-flex align-items-center justify-content-center gap-4 fs-5">
               
-                <a href="https://bit.ly/3XubLzN"><i className='fa-brands fa-github '></i></a>
-                <a href="https://bit.ly/3G0NCKd"><i className='fa-brands fa-linkedin '></i></a>
-                <a href="https://bit.ly/3i3MY6H"><i className='fa-brands fa-twitter'></i></a>
+                
+                {
+                  icons.map((icon)=>{
+                    return(
+                      <a href="${icon.url}" key={icon.id}><i className={`${icon.class} ${iconClass}`}></i></a>
+                    )
+                  })
+                }
 
             
               </div>
