@@ -19,7 +19,7 @@ const Footer = ({mode}) => {
                 {
                   icons.map((icon)=>{
                     return(
-                      <a href="${icon.url}" key={icon.id}><i className={`${icon.class} ${iconClass}`}></i></a>
+                      <a href={icon.url} key={icon.id} target='_blank'><i className={`${icon.class} ${iconClass}`}></i></a>
                     )
                   })
                 }

@@ -43,13 +43,14 @@ const Navbar = ({toggleMode,mode}) => {
                 </li>
               ))}
             </ul>
-            <div className="form-check form-switch" onClick={toggleMode}>
+            <div className="form-check form-switch mx-2" onClick={toggleMode}>
               <input
                 className="form-check-input"
                 type="checkbox"
                 role="switch"
                 id="flexSwitchCheckDefault"
               />
+              
 
             </div>
 
